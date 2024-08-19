@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(./Assets/background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainContainer {
+    width: 30%;
+    height: 80%;
+    background-color: gold;
+    background-image: linear-gradient(to right bottom, #77a59d, #e65248);
+    border-radius: 5%;
+    color: white;
+
+}
+
+.searchSection {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    gap: 5%;
+}
+
+#input {
+    width: 60%;
+    height: 30%;
+    border-radius: 18px;
+    border: none;
+    padding: 5%;
+    font-size: 100%;
+    outline: none;
+}
+
+#input :hover {
+    outline: none;
+}
+
+#searchBtn {
+    width: 10%;
+    height: 30%;
+    border-radius: 50px;
+    border: none;
+    padding: 2%;
+}
+
+#searchBtn:hover {
+    font-size: large;
+    cursor: pointer;
+    padding: 2%;
+    background-color: lightgray;
+    color: black;
+}
+
+.cloudSection {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.temperatureSection {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 5rem;
+}
+
+.cityName {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2rem;
+}
+
+.lastSection {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}

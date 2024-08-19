@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="searchSection">
+            <input type="text" id="input" placeholder="Search">
+            <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="cloudSection">
+            <img src="./Assets/images-cloud.jfif" alt="">
+        </div>
+        <div class="temperatureSection"><span id="centigrate">-</span>°c</div>
+        <div class="cityName">-----</div>
+        <div class="lastSection">
+            <div class="humiduty">
+                <p><i class="fa-solid fa-water"></i> <span id="haps"> -</span>%</p>
+                <p>Humidity</p>
+            </div>
+            <div class="wind">
+                <p><i class="fa-solid fa-wind"></i><span id="hawa"> - </span> Km/h</p>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
